@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+*.pyc
+.DS_Store
+.jupyter/
+anaconda_projects/
+.git/

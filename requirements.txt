@@ -1,0 +1,10 @@
+rawpy
+imageio
+imageio[ffmpeg]
+exifread
+numpy 
+opencv-python
+earthengine-api
+# Note: Hugin must be installed separately (https://hugin.sourceforge.io/download/)
+# Note: You can optionally install FFmpeg command line for the ImageSeq_to_Video script (https://www.ffmpeg.org/download.html)
+# earthengine-api is only needed for the EarthTimelapse script
