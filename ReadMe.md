@@ -38,9 +38,9 @@ Run the script!
 \# Notes on use.
 
 The Pano\_Batcher and HDR\_Batcher might work on a folder with a mix of image files
-by selecting images for processing with similar time stamps. If this auto-section fails,
-
-then put just files to be processed in a separate folder.
+by selecting images for processing with similar time stamps. If this auto-section fails, 
+becasue there is other sets of photos with simular time stamps resulting from, for example, rapid sports
+shooting, then put just files to be processed in a separate folder.
 The HDR\_Batcher.ipyn script will also do focus stacking, see comments in the code for details.
 The ImageSeq\_to\_Video.ipynb script expects the files to ordered sequentially.
 The PhotoMosaicPan.ipynb expects an image that is much longer than it is high.

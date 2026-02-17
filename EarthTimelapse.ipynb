@@ -11,7 +11,7 @@
     "-------------------------------------------------------------------------------\n",
     "A Python tool for geologists to generate high-resolution, scientific-grade timelapses of depositional environments (deltas, inlets, canyon erosion) using 40 years of Landsat satellite data.<br>\n",
     "\n",
-    "Author: Brian Willis (programmed to a large extent by Gemini AI)<br>\n",
+    "Author: Brian Willis<br>\n",
     "AI programming support: Gemini 3 pro<br>\n",
     "Contact: Willis77019@gmail.com<br>\n",
     "License:  MIT License (unrestricted: Use at your own risk)<br>\n",

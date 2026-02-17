@@ -30,7 +30,7 @@
     "HDR BATCH PROCESSOR\n",
     "-------------------------------------------------------------------------------\n",
     "A program to batch process HDR images<br>\n",
-    "Author: Brian Willis (programmed to a large extent by Gemini AI)<br>\n",
+    "Author: Brian Willis<br>\n",
     "AI programming support: Gemini 3 pro<br>\n",
     "Contact: Willis77019@gmail.com<br>\n",
     "License:  MIT License (unrestricted: Use at your own risk)<br>\n",

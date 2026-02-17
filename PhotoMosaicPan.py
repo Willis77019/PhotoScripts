@@ -7,7 +7,7 @@
    "source": [
     "# GeoPhoto-Tools: Gigapixel Panorama Video Generator\n",
     "Makes videos that pan along a photo.\n",
-    "Author: Brian Willis (programmed to a large extent by Gemini AI)<br>\n",
+    "Author: Brian Willis<br>\n",
     "AI programming support: Gemini 3 pro<br>\n",
     "Contact: Willis77019@gmail.com<br>\n",
     "License:  MIT License (unrestricted: Use at your own risk)<br>\n",
@@ -77,7 +77,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "id": "17fb1d1d-5888-4192-ad37-a91503e33c1d",
    "metadata": {},
    "outputs": [
@@ -97,6 +97,24 @@
      "output_type": "stream",
      "text": [
       "Choice (s/b):  s\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- STARTING BATCH (1 files) ---\n",
+      "Temp file location: C:\\Users\\Willi\\AppData\\Local\\Temp\\pano_batch_temp.raw\n",
+      "\n",
+      "[File 1 of 1]\n",
+      "\n",
+      "Processing: Pano_DSC_0873.jpg...\n",
+      "  [SKIP] Could not detect dimensions.\n",
+      "\n",
+      "--- BATCH COMPLETE ---\n",
+      "Processed: 0/1\n",
+      "Total Time: 0.0 minutes\n"
      ]
     }
    ],
