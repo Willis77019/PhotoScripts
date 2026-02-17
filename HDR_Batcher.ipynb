@@ -10,7 +10,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 1,
    "id": "6c02343e-4c66-49f3-ad55-0e7bf540127e",
    "metadata": {},
    "outputs": [
@@ -20,33 +20,7 @@
      "text": [
       "--- HDR BATCH PROCESSOR STARTING ---\n",
       "Please select your INPUT folder from the popup window...\n",
-      "Found 6 sets to process.\n",
-      "  -> Processing set 1 (3 images)...\n",
-      "    [DONE] Saved to: HDR_DSC_0004.tif\n",
-      "  -> Processing set 2 (3 images)...\n",
-      "    [DONE] Saved to: HDR_DSC_0007.tif\n",
-      "  -> Processing set 3 (3 images)...\n",
-      "    [DONE] Saved to: HDR_DSC_0010.tif\n",
-      "  -> Processing set 4 (3 images)...\n",
-      "    [ERROR] Alignment failed.\n",
-      "    [HUGIN LOG] \n",
-      "After control points pruning there are only 2 control points\n",
-      "left, but you selected 3 parameters to optimize.\n",
-      "This will give strange results.\n",
-      "Increase error distance (-t parameter), tweak cp\n",
-      "detection parameters or select less parameters to optimize.\n",
-      "\n",
-      "Exiting...\n",
-      "\n",
-      "  -> Processing set 5 (3 images)...\n",
-      "    [ERROR] Alignment failed.\n",
-      "    [HUGIN LOG] An error occurred during optimization.\n",
-      "Try adding \"-p debug.pto\" and checking output.\n",
-      "Exiting...\n",
-      "\n",
-      "  -> Processing set 6 (3 images)...\n",
-      "    [DONE] Saved to: HDR_DSC_0019.tif\n",
-      "--- ALL DONE ---\n"
+      "No images found in C:/Users/Willi/Desktop/HDR TST/Stop\n"
      ]
     }
    ],

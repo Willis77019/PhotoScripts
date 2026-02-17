@@ -42,7 +42,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 1,
    "id": "6c02343e-4c66-49f3-ad55-0e7bf540127e",
    "metadata": {},
    "outputs": [
@@ -52,12 +52,7 @@
      "text": [
       "--- SEQUENCE TO VIDEO STARTING ---\n",
       "Please select your INPUT folder containing image frames...\n",
-      "Found 68 frames. Source Resolution: 3200x1463\n",
-      "[WARNING] Odd resolution detected!\n",
-      "  FFmpeg requires even numbers. Cropping video to: 3200x1462\n",
-      "Stitching video at 1 fps...\n",
-      "  Processing frame 50/68...\n",
-      "[DONE] Video saved to: C:/Users/Willi/Desktop/HDR TST/MovieTst\\MovieTst_Video.mp4\n"
+      "No images found in C:/Users/Willi/Desktop/HDR TST/Stop\n"
      ]
     }
    ],

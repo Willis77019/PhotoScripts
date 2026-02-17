@@ -77,7 +77,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "id": "17fb1d1d-5888-4192-ad37-a91503e33c1d",
    "metadata": {},
    "outputs": [
@@ -97,24 +97,6 @@
      "output_type": "stream",
      "text": [
       "Choice (s/b):  s\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "--- STARTING BATCH (1 files) ---\n",
-      "Temp file location: C:\\Users\\Willi\\AppData\\Local\\Temp\\pano_batch_temp.raw\n",
-      "\n",
-      "[File 1 of 1]\n",
-      "\n",
-      "Processing: Pano_DSC_0873.jpg...\n",
-      "  [SKIP] Could not detect dimensions.\n",
-      "\n",
-      "--- BATCH COMPLETE ---\n",
-      "Processed: 0/1\n",
-      "Total Time: 0.0 minutes\n"
      ]
     }
    ],
