@@ -1,10 +1,10 @@
-### Geology Photo Stitcher Tools
+# Geology Photo Stitcher Tools
 
 A collection of Python scripts for automating geological image processing, including HDRs, Panoramas, and Stratigraphic Core rendering.
 
 
 
-##### Prerequisites
+### Prerequisites
 
 Install Hugin (For Panoramas/HDR):
 
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 
 
-##### How to Use
+### How to Use
 
 There are currently eight independent scripts that perform different tasks:
 
@@ -48,7 +48,7 @@ There are currently eight independent scripts that perform different tasks:
 
 
 
-##### Execution Instructions:
+### Execution Instructions:
 
 For Scripts 1-6: Open the script in Jupyter, CoLab, or your preferred Python environment. Edit the Configuration Section at the top of the code segment, then run the script.
 
@@ -56,7 +56,7 @@ For Scripts 7 i, ii, iii (Core Suite): These are standalone graphical applicatio
 
 
 
-**Notes on use**
+### Notes on use
 
 Pano \& HDR Batchers: These scripts might work on a folder with a mix of image files by selecting images for processing with similar time stamps. If this auto-selection fails (because there are other sets of photos with similar time stamps resulting from, for example, rapid sports shooting), put just the files to be processed in a separate folder.
 
@@ -72,5 +72,5 @@ Core Video Generation: The Core\_Video\_Generator.py is specifically engineered 
 
 
 
-###### More details on the use of each script are listed in their respective file headers.
+### More details on the use of each script are listed in their respective file headers.
 
