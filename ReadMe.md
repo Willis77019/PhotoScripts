@@ -1,6 +1,4 @@
-<p align="center">
-  <video src="https://github.com/Willis77019/PhotoScripts/raw/main/Header_video.mp4" width="100%" autoplay loop muted playsinline></video>
-</p>
+![Scrolling Core Header](Header_video.mp4)
 # Geology Photo Stitcher Tools
 
 A collection of Python scripts for automating geological image processing, including HDRs, Panoramas, and Stratigraphic Core rendering.
