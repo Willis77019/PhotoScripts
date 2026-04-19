@@ -1,3 +1,8 @@
+<p align="center">
+  <video src="Header_video.mp4" width="100%" autoplay loop muted playsinline></video>
+</p>
+
+# Geology Photo Stitcher Tools
 # Geology Photo Stitcher Tools
 
 A collection of Python scripts for automating geological image processing, including HDRs, Panoramas, and Stratigraphic Core rendering.
