@@ -1,4 +1,7 @@
-![Scrolling Core Header](Header_video.mp4)
+<p align="center">
+  <img src="Header2.jpg" width="100%">
+</p>
+
 # Geology Photo Stitcher Tools
 
 A collection of Python scripts for automating geological image processing, including HDRs, Panoramas, and Stratigraphic Core rendering.
