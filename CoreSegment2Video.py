@@ -7,7 +7,7 @@
 # Core segment to Video Generator
 
 
-# In[ ]:
+# In[1]:
 
 
 """
@@ -15,7 +15,7 @@
 Core segment to Video Generator
 =============================================================================
 Description:
-    Generates a 4K portrait (2160x3840) continuous scrolling video from a 
+    Generates up to 4K portrait (2160x3840) continuous scrolling video from a 
     folder of stitched core columns. The video simulates a "fly-through" 
     camera panning seamlessly from the bottom of the core sequence to the top.
 
@@ -24,6 +24,10 @@ Description:
     JPEG height limits (65,535 pixels) and massive RAM overflows. It maps the 
     images virtually and only crops/resizes the exact pixels needed for the 
     current frame directly from the hard drive.
+
+    The order of the input files matter, and should be sorted (by name) with the bottom 
+    core segment first, followed by progressively younger rock segments. The video will 
+    then progress from the base of the core upward to the top. 
 
 Prerequisites:
     pip install opencv-python numpy
@@ -39,7 +43,8 @@ Usage Instructions:
 
 Output:
     Generates a 30 FPS MP4 video file named "core_flythrough_4k.mp4" 
-    in the selected directory.
+    in the selected directory. (change FPS in the code below to 60 for 
+    smoother playback, but also much larger file).
 =============================================================================
 """
 import cv2
@@ -103,7 +108,7 @@ def create_core_video_direct_stream():
         print("No images found.")
         return
 
-    FPS = 60 # Set to 60 for smooth scrolling
+    FPS = 30 # Set to 60 for smooth scrolling
     total_frames = duration_sec * FPS
 
     # 3. Step 1: Map the virtual column 
