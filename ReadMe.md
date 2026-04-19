@@ -30,33 +30,33 @@ pip install -r requirements.txt
 
 There are currently eight independent scripts that perform different tasks:
 
-1. Batch Processing \& Presentation Scripts:
+Batch Processing \& Presentation Scripts:
 
-2\. Pano\_Batcher.py : Searches through a folder and finds sets of images to stitch into photomosaics.
+	1. Pano\_Batcher.py : Searches through a folder and finds sets of images to stitch into photomosaics.
 
-3\. HDR\_Batcher.py : Finds sets of images to combine to make high-dynamic-range (HDR) or focus-stack photos.
+	2. HDR\_Batcher.py : Finds sets of images to combine to make high-dynamic-range (HDR) or focus-stack photos.
 
-4\. ImageSeq\_to\_Video.py : Combines images in a folder to make a video (Microsoft Moviemaker replacement).
+	3. ImageSeq\_to\_Video.py : Combines images in a folder to make a video (Microsoft Moviemaker replacement).
 
-5\. PhotoMosaicPan.py : Makes a video that pans along a photomosaic (better for sharing and presentation of observations).
+	4. PhotoMosaicPan.py : Makes a video that pans along a photomosaic (better for sharing and presentation of observations).
 
-6\. EarthTimelapse.py : User-friendly download of high-resolution LandSat timelapse images from Google EarthEngine.
+	5. EarthTimelapse.py : User-friendly download of high-resolution LandSat timelapse images from Google EarthEngine.
 
-7\. Core Processing Suite (GUI Tools):
+Core Processing Suite (GUI Tools):
 
-&#x09;i. CoreSegmentStitcher.py : Interactive GUI tool for extracting vertical core segments from box photos and stitching them into continuous columns.
+	6. CoreSegmentStitcher.py : Interactive GUI tool for extracting vertical core segments from box photos and stitching them into continuous columns.
 
-&#x09;ii. CoreSegmentExtractor.py : Interactive GUI tool for batch-extracting individual core segments into separate image files.
+	7. CoreSegmentExtractor.py : Interactive GUI tool for batch-extracting individual core segments into separate image files.
 
-&#x09;iii. CoreSegment2Video.py : Converts stitched core columns into a continuous vertical fly-through video.
+	8. CoreSegment2Video.py : Converts stitched core columns into a continuous vertical fly-through video.
 
 
 
 ### Execution Instructions:
 
-For Scripts 1-6: Open the script in Jupyter, CoLab, or your preferred Python environment. Edit the Configuration Section at the top of the code segment, then run the script.
+For Scripts 1-5: Open the script in Jupyter, CoLab, or your preferred Python environment. Edit the Configuration Section at the top of the code segment, then run the script.
 
-For Scripts 7 i, ii, iii (Core Suite): These are standalone graphical applications. Simply run them directly from your terminal or command prompt (e.g., python Core\_Stitcher.py). A window will pop up prompting you to select your folders and interact with the images.
+For Scripts 6-8 (Core Suite): These are standalone graphical applications. Simply run them directly from your terminal or command prompt (e.g., python Core\_Stitcher.py). A window will pop up prompting you to select your folders and interact with the images.
 
 
 
